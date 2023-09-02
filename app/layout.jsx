@@ -13,11 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'></link>
+        <link rel='stylesheet' href='https://bootswatch.com/5/lux/bootstrap.min.css'></link>
       </head>
       <body className={inter.className}>
         <Navbar />
-        <div className='container'> 
+        <div className="container p-4"> 
           {children}
         </div>
       </body>
